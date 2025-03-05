@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+google-auth = "*"
+google-auth-oauthlib = "*"
+google-auth-httplib2 = "*"
+google-api-python-client = "*"
+social-auth-app-django = "*"
+python-dotenv = "*"
+channels = "*"
+daphne = "*"
+dotenv = "*"
+django-dotenv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
